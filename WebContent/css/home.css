@@ -1,0 +1,153 @@
+.wrapper {
+	width: auto;
+	height: 100vh;
+	display: block;
+	background-color: white;
+}
+
+.wrapper .nav-container {
+	width: auto;
+	height: 500px;
+	padding: 1px;
+}
+
+.wrapper .nav-container .logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.wrapper .nav-container .logo .logo-image {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	border-radius: 10px;
+
+}
+
+.wrapper .nav-container .logo .logo-text {
+	font-size: 45px;
+}
+
+.wrapper .search-section {
+	display: flex;
+	justify-content: center;
+	padding: 140px;
+}
+
+.wrapper #dropdown {
+	height: 50px;
+	width: 700px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.wrapper .options {
+	font-weight: bold;
+}
+
+.wrapper .search-button {
+	height: 50px;
+	width: 200px;
+	background-color: dodgerblue;
+	justify-content: center;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.wrapper .search-btn {
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.wrapper .content {
+	width: auto;
+	height: 100vh;
+	padding: 10px;
+	justify-content: center;
+}
+
+.wrapper #content-header {
+	padding: 20px;
+	font-weight: 700;
+	display: flex;
+}
+
+.wrapper .sorting {
+	display: flex;
+	width: auto;
+	justify-content: right;
+}
+
+.wrapper .sort {
+	cursor: pointer;
+	margin-right: 20px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background: dodgerblue;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+}
+
+ .wrapper .grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 20px;
+	height: 500px;
+	width: auto;
+}
+
+.wrapper .house-grid {
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+	background: linear-gradient(45deg, light-gray, white);
+/* 	Gradient background */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+/* 	Box shadow for a subtle lift */
+	transition: transform 0.3s ease-in-out;
+}
+
+.wrapper .house-grid:hover {
+	transform: scale(1.05);
+}
+
+
+.wrapper .house-tile {
+	padding: 20px;
+}
+
+.wrapper .house-picture {
+	width: 100%;
+	height: 400px;
+	padding: 15px;
+}
+
+.wrapper .house-info {
+	padding: 20px;
+}
+
+.wrapper .house-price {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.wrapper .house-bbd {
+	font-weight: 600;
+	color: darkgray;
+	margin-bottom: 2px;
+}
+
+.wrapper .house-address {
+	margin-bottom: 2px;
+} 
